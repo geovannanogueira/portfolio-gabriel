@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav > ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333333;
+    font-size: 1.3em;
+    height: 2.5em;
+    align-items: center;
+}
+ul{
+    color: #fff;
+}
+#banner img{
+    background-image: url("./imagens/banner\ fundo.jpeg");
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+.banner_content{
+    position: absolute;
+    top: 100px;
+    left: 660px;
+}
+.banner_content h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3em;
+    background-color: rgba(255, 255, 255, 0.493);
+    padding: 0.5em 1em;
+}
+.banner_content2{
+    position: absolute;
+    top: 300px;
+    left: 767px;
+}
+.banner_content2 h3{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    background-color: rgba(255, 255, 255, 0.527);
+    padding: 0.5em 1em;
+}
+#clovers{
+    background-color: #cccccc;
+}
+#clovers > img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    left: 450px;
+}
+.texto1{
+    position: relative;
+    top: 70px;
+    left: 450px;
+}
+.me_conheca{
+    position: relative;
+    top: -280px;
+    left: 1160px;
+    color: #fff;
+    font-size: 1.5em;
+}
+.texto2{
+    position: relative;
+    top: -250px;
+    left: 1060px;
+    color: #fff;
+}
+.projetos{
+    position: relative;
+    top: -220px;
+    left: 1060px;
+    color: #fff;
+}
+.retangulo{
+    
+}
+.habilidades{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+}
+.quadrados{
+    margin-left: 10%;
+    background-color: #c9c9c9;
+    width: 60px;
+    height: 60px;
+    
+}
+#local_habilidades h5{
+    font-size: 1.5em;
+}
+#local_habilidades p{
+    width: 40%;
+}
+#contato{
+    background-color: #666666;
+}
+.contato1 h4{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    color: #fff;
+}
+#redes img{
+    background-color: #333333;
+    background-image: url(../imagens/facebook.png);
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 0 10px;
+}
+#redes h5{
+    padding: 0 0 7px 20px;
+    color: #fff;
+}
+.flex{
+    display: flex;
+    padding-left: 20px;
+}
+.flex1{
+    display: flex;
+    justify-content: space-around;
+}
+.dados_pessoais{
+    background-color: #989898;
+    padding: 30px;
+}
+input{
+    margin: 3px;
+    background-color: #c9c9c9;
+    border: none;
+    justify-content: space-around; 
+}
+
+input[type="submit"]
+{
+    background-color: red;
+}
+
+footer{
+    background-color: #333333;
+    text-align: center;
+    color: #fff;
+    padding: 40px 0px;
+}
